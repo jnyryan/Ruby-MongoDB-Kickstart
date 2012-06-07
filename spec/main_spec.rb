@@ -1,9 +1,5 @@
 require 'spec_helper'
 
-it "Returns one database"
-	
-end
-
 describe Book do
   before :each do
     @book = Book.new "Title", "Author", :category
